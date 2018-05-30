@@ -9,6 +9,6 @@ public class FaceTest {
 
     @Test
     public void should_cry() throws Exception {
-        assertThat(new Face().face(), is("cry"));
+        assertThat(new Face().face(), is("smile"));
     }
 }
